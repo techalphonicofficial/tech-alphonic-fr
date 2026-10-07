@@ -130,9 +130,7 @@ export default function OurWorkHero({ data }) {
 
                   <div className="mt-7 h-10 w-32 rounded-full bg-[#FE5C36]" />
                 </div>
-
                 {/* Floating UI */}
-
                 <div className="absolute bottom-7 right-7 w-36 rounded-2xl border border-white/20 bg-white/10 p-4 shadow-2xl backdrop-blur-xl">
                   <div className="h-2 w-16 rounded-full bg-white/30" />
                   <div className="mt-3 text-2xl font-black text-white">

@@ -2,6 +2,7 @@ import Navbar from "@/components/navbar/Navbar";
 import "./globals.css";
 import ContactDetialsStrip from "@/components/navbar/ContactDetialsStrip";
 import Footer from "@/components/common/Footer";
+import CursorFollower from "@/components/common/CursorFollower";
 
 export const metadata = {
   title: "Tech Alphonic - Your Trusted IT Partner",
@@ -13,6 +14,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="bg-background text-foreground antialiased">
+         <CursorFollower />
+
         <header className="fixed left-0 right-0 top-0 z-[9999]">
           <ContactDetialsStrip />
           <Navbar />
