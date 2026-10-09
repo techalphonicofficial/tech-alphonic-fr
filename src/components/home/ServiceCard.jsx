@@ -74,9 +74,8 @@ function ServiceCard({ service, index }) {
       ========================================================= */}
 
       <div
-        className={`relative grid min-h-[480px] sm:grid-cols-2 ${
-          isImageFirst ? "sm:[&>*:first-child]:order-2" : ""
-        }`}
+        className={`relative grid min-h-[480px] sm:grid-cols-2 ${isImageFirst ? "sm:[&>*:first-child]:order-2" : ""
+          }`}
       >
 
         {/* =======================================================

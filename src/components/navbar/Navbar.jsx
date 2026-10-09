@@ -212,7 +212,7 @@ export default function Navbar() {
                             onClick={() =>
                                 handleNavigation("/contact")
                             }
-                            className="group flex items-center gap-2 rounded-full bg-secondary px-5 py-2.5 text-xs font-extrabold text-dark shadow-lg shadow-secondary/20 transition-all duration-300 hover:-translate-y-0.5 hover:shadow-xl hover:shadow-secondary/30"
+                            className="group flex items-center gap-2 rounded-lg bg-primary px-5 py-2.5 text-xs font-bold text-white shadow-md shadow-primary/20 transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#e65c00] hover:shadow-lg hover:shadow-primary/30"
                         >
                             Get a Free Proposal
 
